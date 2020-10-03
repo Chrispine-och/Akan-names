@@ -1,7 +1,4 @@
-#logo{
-float: left; 
-width: 150px;   
-border-radius: 50%;
-height: 150px;
-
+.logo{
+    width: 100px;
+    height: 100px;
 }
