@@ -34,5 +34,21 @@ body {
 }
 
 form {
-    background: red;
+    background: rgba(255,255,255,0.5);
+    width: 850px;
+    margin-left:22%;
+    margin-top: 10px;
+    border-radius: 15px;
+    
+}
+.form-group {
+    margin: 10px;
+}
+form h2 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.btn {
+ margin-left: 10px;
 }
