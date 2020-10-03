@@ -48,6 +48,15 @@ form h2 {
     text-align: center;
     font-weight: bold;
 }
+ul {
+    margin-left: 30%;
+    font-size: 15px;
+}
+li {
+    font-size: 30px;
+    list-style: none;
+    display: inline;
+}
 
 .btn {
  margin-left: 10px;

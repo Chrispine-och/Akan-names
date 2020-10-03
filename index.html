@@ -48,12 +48,25 @@
             <input type="number" class="form-control" id="date" aria-describedby="date" placeholder="Enter Date Of Birth">
           </div>
 
-        
+          <ul>
+              <li>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+              </li>
+              <li>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+              </li>
+              <li>
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Other</label>
+              </li>
+          </ul>
    
                 <button type="submit" class="btn btn-primary" onclick="searchname();">Search Names</button>
                 <button type="reset" class="btn btn-primary" onclick="reset();">reset</button> 
             </div>
-            
+
             <div class="footer"></div>
             <footer class="page-footer ">
                 <div class="footer-copyright text-center py-3">Copyright © 2020:
