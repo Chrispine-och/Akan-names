@@ -52,14 +52,31 @@
       <input type="number" class="form-control" id="exampleInputPassword1" placeholder="enter your date of birth">
     </div>
 
+    <div class="form-group">
+        <label for="month">Gender</label><br>
+        <div class="form-check-inline">
+          <label class="form-check-label">
+            <input type="radio" class="form-check-input" name="gender" id="male">&nbsp; Male 
+          </label>
+        </div>
 
-    <button type="submit" class="btn btn-primary">Submit</button>
-  </form>
-  <div class="form-check">
-    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-    <label class="form-check-label" for="exampleCheck1">Check me out</label>
-  </div>
-  <button type="submit" class="btn btn-primary">Submit</button>
+        <div class="form-check-inline">
+          <label class="form-check-label">
+            <input type="radio" class="form-check-input" name="gender" id="female">&nbsp; Female 
+          </label>
+        </div>
+    </div>
+
+    <footer class="page-footer ">
+        <div class="footer-copyright text-center py-3">Copyright © 2020:
+          <a href="https://github.com/chrispine-och"> Chris ochieng</a>
+        </div>
+      </footer>
+
+
+    <button type="submit" class="btn btn-primary" onclick="searchname();">Search Names</button>
+
+    <br>
 </form>
 
 
