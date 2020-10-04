@@ -38,29 +38,24 @@
         <h2>Name Search form</h2>
         <div class="form-group">
           <label for="year of birth">Year Of Birth</label>
-          <input type="number" class="form-control" id="year" aria-describedby="year" placeholder="Enter Year Of birth">
+          <input type="number" class="form-control" id="year" aria-describedby="year" placeholder="Enter Year Of birth" required>
         </div>
         <div class="form-group">
           <label for="Month of birth">Month Of Birth</label>
-          <input type="number" class="form-control" id="month" placeholder="Enter Month Of birth">
+          <input type="number" class="form-control" id="month" placeholder="Enter Month Of birth" required>
         </div>
         <div class="form-group">
             <label for="year of birth">Date Of Birth</label>
-            <input type="number" class="form-control" id="date" aria-describedby="date" placeholder="Enter Date Of Birth">
+            <input type="number" class="form-control" id="date" aria-describedby="date" placeholder="Enter Date Of Birth" required>
           </div>
 
-          <ul>
-              <li>
-                <input type="radio" id="male" name="gender" value="male">
-                <label for="male">Male</label>
-              </li>
-              <li>
-                <input type="radio" id="female" name="gender" value="female">
-                <label for="female">Female</label>
-              </li>
-            
-          </ul>
-          
+          <div class="form-group">
+            <label for="exampleFormControlSelect1">Gender</label>
+            <select class="form-control" id="gender" required>
+                <option value=""></option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select> <br>
                 <button type="submit" class="btn btn-primary" onclick="searchnames();">Search Names</button>
                 <button type="reset" class="btn btn-primary" onclick="reset();">reset</button> 
             </div>
