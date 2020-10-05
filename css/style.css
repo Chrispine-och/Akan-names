@@ -8,6 +8,7 @@ body {
     font-size: 70px;
     margin-top: -10px;
     text-align: center;
+    font-family: sans-serif;
 }
 
 .logo img {
@@ -26,6 +27,7 @@ body {
     line-height: 2;
     border-radius: 15px;
     margin-top: 20px;
+    font-family: sans-serif;
 }
 
 .description p {
