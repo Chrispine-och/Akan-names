@@ -29,7 +29,7 @@ function searchnames() {
     }
     else 
     if (gender === "Female"){
-        alert("your akan name is " + akanFemaleNames [d]) 
+        alert("your akan name is " + akanFemaleNames [d] ) 
     }
         
 
